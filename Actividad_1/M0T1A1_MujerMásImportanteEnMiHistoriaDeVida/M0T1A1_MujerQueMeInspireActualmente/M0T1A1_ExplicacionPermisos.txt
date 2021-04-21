@@ -1,0 +1,19 @@
+En el caso de los directorios tenemos los mismo permisos, pero con un significado diferente.
+
+>> Permiso de lectura en un directorio
+Si un directorio tiene permiso de lectura, puedes ver los archivos que este contiene. Puedes usar un «ls (list directory)» para ver su contenido, que tengas permiso de lectura en un directorio no quiere decir que puedas leer el contenido de sus archivos si no tienes permiso de lectura en esos.
+
+ 
+
+>> Permiso de escritura en un directorio.
+Con el permiso de escritura puedes agregar, remover o mover archivos al directorio
+
+>> Permiso de ejecución en un directorio.
+Ejecución te permite usar el nombre del directorio cuando estas accediendo a archivos en ese directorio, es decir este permiso lo hace que se tome en cuenta en búsquedas realizadas por un programa, por ejemplo, un directorio sin permiso de ejecución no seria revisado por el comando find
+
+estos 3 permisos son almacenados en 3 lugares diferentes llamados.
+Usuario (u) proviene de user
+Grupo (g) proviene de group
+Otros (o) proviene de other
+
+https://blog.desdelinux.net/permisos-basicos-en-gnulinux-con-chmod/
